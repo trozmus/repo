@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/Users/trozmus/Documents/workspace/NLPPL/ext jar/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="/Users/trozmus/Documents/workspace/NLPPL/ext jar/javax.ws.rs-api-2.0.jar/javax.ws.rs-api-2.0.jar"/>
+	<classpathentry kind="lib" path="/Users/trozmus/Documents/workspace/NLPPL/ext jar/org.json.jar/org.json.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/aopalliance-repackaged-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/asm-debug-all-5.0.4.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/hk2-api-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/hk2-locator-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/hk2-utils-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/javax.inject-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/jaxb-api-2.2.7.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/jersey-guava-2.23.1.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/org.osgi.core-4.2.0.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/ext/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="ext jar/javax.ws.rs-api-2.0.jar/javax.ws.rs-api-2.0.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/lib/jersey-client.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/lib/jersey-common.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/lib/jersey-container-servlet-core.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/lib/jersey-container-servlet.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/lib/jersey-media-jaxb.jar"/>
+	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/lib/jersey-server.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

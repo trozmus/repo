@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chunkList SYSTEM "ccl.dtd">
+<chunkList>
+ <chunk type="p" id="ch1">
+  <sentence id="s1">
+   <tok>
+    <orth>Czy</orth>
+    <lex disamb="1"><base>czy</base><ctag>qub</ctag></lex>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_org_organization">0</ann>
+   </tok>
+   <tok>
+    <orth>Wielka</orth>
+    <lex disamb="1"><base>wielki</base><ctag>adj:sg:nom:f:pos</ctag></lex>
+    <ann chan="nam_loc_gpe_country">1</ann>
+    <ann chan="nam_org_organization">0</ann>
+   </tok>
+   <tok>
+    <orth>Brytania</orth>
+    <lex disamb="1"><base>Brytania</base><ctag>subst:sg:nom:f</ctag></lex>
+    <lex disamb="1"><base>brytania</base><ctag>subst:sg:nom:f</ctag></lex>
+    <ann chan="nam_loc_gpe_country">1</ann>
+    <ann chan="nam_org_organization">0</ann>
+   </tok>
+   <tok>
+    <orth>może</orth>
+    <lex disamb="1"><base>móc</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_org_organization">0</ann>
+   </tok>
+   <tok>
+    <orth>wyjść</orth>
+    <lex disamb="1"><base>wyjść</base><ctag>inf:perf</ctag></lex>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_org_organization">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_org_organization">0</ann>
+   </tok>
+   <tok>
+    <orth>UE</orth>
+    <lex disamb="1"><base>UE</base><ctag>subst:sg:gen:f</ctag></lex>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_org_organization">1</ann>
+   </tok>
+   <tok>
+    <orth>od</orth>
+    <lex disamb="1"><base>od</base><ctag>prep:gen:nwok</ctag></lex>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_org_organization">0</ann>
+   </tok>
+   <tok>
+    <orth>razu</orth>
+    <lex disamb="1"><base>raz</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_org_organization">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>?</orth>
+    <lex disamb="1"><base>?</base><ctag>interp</ctag></lex>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_org_organization">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+ <chunk type="p" id="ch2">
+  <sentence id="s2">
+   <tok>
+    <orth>A</orth>
+    <lex disamb="1"><base>a</base><ctag>conj</ctag></lex>
+   </tok>
+   <tok>
+    <orth>może</orth>
+    <lex disamb="1"><base>może</base><ctag>qub</ctag></lex>
+   </tok>
+   <tok>
+    <orth>nie</orth>
+    <lex disamb="1"><base>nie</base><ctag>qub</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+ </chunk>
+ <chunk type="p" id="ch3">
+  <sentence id="s3">
+   <tok>
+    <orth>Ala</orth>
+    <lex disamb="1"><base>Ala</base><ctag>subst:sg:nom:f</ctag></lex>
+   </tok>
+   <tok>
+    <orth>ma</orth>
+    <lex disamb="1"><base>mieć</base><ctag>fin:sg:ter:imperf</ctag></lex>
+   </tok>
+   <tok>
+    <orth>kota</orth>
+    <lex disamb="1"><base>kot</base><ctag>subst:sg:acc:m2</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+ </chunk>
+</chunkList>
