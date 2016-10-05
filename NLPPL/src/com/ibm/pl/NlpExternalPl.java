@@ -26,7 +26,8 @@ import org.json.JSONObject;
 
 public class NlpExternalPl {
 	static private final String nlprestURL="http://ws.clarin-pl.eu/nlprest2/base/";
-
+ 
+	
     public String NlpExternalPlProcess(String text) throws IOException, JSONException, InterruptedException
     {
     	String annotators="";

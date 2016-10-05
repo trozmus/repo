@@ -27,5 +27,6 @@
 	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/lib/jersey-container-servlet.jar"/>
 	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/lib/jersey-media-jaxb.jar"/>
 	<classpathentry kind="lib" path="ext jar/jaxrs-ri-2.23.1/jaxrs-ri/lib/jersey-server.jar"/>
+	<classpathentry kind="lib" path="ext jar/org.json.jar/org.json.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
