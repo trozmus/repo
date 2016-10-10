@@ -35,16 +35,16 @@ package com.ibm.pl;
     
 	 public static void main (String args []) throws IOException {
 	 try {
-	String[] file={"/Users/trozmus/Documents/workspace/NLPPL/data/dokument1.txt.xml","C:/Users/IBM_ADMIN/workspace/NLPPL/data/test2.xml","C:/Users/IBM_ADMIN/workspace/NLPPL/data/test2.txt"};
+	//String[] file={"/Users/trozmus/Documents/workspace/NLPPL/data/dokument1.txt.xml","C:/Users/IBM_ADMIN/workspace/NLPPL/data/test2.xml","C:/Users/IBM_ADMIN/workspace/NLPPL/data/test2.txt"};
 
-		System.out.print("Start Main \n"); 
+		//System.out.print("Start Main \n"); 
 		
-		String source = "Czy Wielka Brytania może wyjść z UE od razu? A może za rok Polska?";	
-		 String xmlResource = NlpExtAnn2.readFile(file[0]);
+		//String source = "Czy Wielka Brytania może wyjść z UE od razu? A może za rok Polska?";	
+		//String xmlResource = NlpExtAnn2.readFile(file[0]);
 		 
 		 //NlpExtAnn2.parseNLPXML(xmlResource);
 		//System.out.println(xmlResource+"\n");
-		 NlpExtAnn2.NlpExtAnnGet(xmlResource , source , "bababab"); 
+	//	 NlpExtAnn2.NlpExtAnnGet(xmlResource , source , "bababab"); 
 		     
 		
 		//list = nlpExtAnn.NlpExtAnnGet("C:/Users/IBM_ADMIN/workspace/NLPPL/data/dokument1.txt");
@@ -74,7 +74,7 @@ package com.ibm.pl;
 	          
 	 
 	 
-	 public static List<OrthPl> parseNLPXML(String AnnotatorText){
+	 public  static List<OrthPl> parseNLPXML(String AnnotatorText){
 		 List<OrthPl> list = new ArrayList<OrthPl>(); 
 			
 		 Document doc = (Document) Jsoup.parse(AnnotatorText,"", Parser.xmlParser()); //,"",Parser.xmlParser());
@@ -142,7 +142,7 @@ package com.ibm.pl;
 		 return list;
 	 }
 	 
-	 public static List<OrthPl> NlpExtAnnGet(String AnnotatorText, String InputText, String InputTextFilename) throws IOException{
+	 public  List<OrthPl> NlpExtAnnGet(String AnnotatorText, String InputText, String InputTextFilename) throws IOException{
 		 
 		 
 		 // Annotators from NLP as String XML
@@ -152,6 +152,8 @@ package com.ibm.pl;
 		 
 		 List<OrthPl> list = new ArrayList<OrthPl>(); 
 		 List<OrthPl> finalList = new ArrayList<OrthPl>(); 
+		 
+		 //System.out.println("Przeszukiwany text: "+InputText+"\n");
 		 
          try {        
      	    
@@ -172,6 +174,7 @@ package com.ibm.pl;
      	    		orthTemp.orthStart = startIndex;
      	    		orthTemp.orthEnd = endIndex;
      	    		list.set(i, orthTemp);
+     	   // 		System.out.print("znalazl "+search+" "+orthTemp.getAnn()+" "+startIndex+ " "+endIndex+" \n");
      	    	}
      	    	i++;
      	    }
